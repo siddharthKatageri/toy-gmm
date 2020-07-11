@@ -233,5 +233,5 @@ for i in range(k):
     z = gauss(x, y, Sigma=cov[i], mu=means[i])
     plot_countour(x, y, z)
 
-plt.colorbar() # draw colorbar
-plt.show()
+#plt.colorbar() # draw colorbar
+#plt.show()
